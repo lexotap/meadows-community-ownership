@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-mountains.jpg";
+import AnimatedHeader from "./AnimatedHeader";
 
 const Hero = () => {
   return (
@@ -18,9 +19,7 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground tracking-tight">
-            MEADOWS BY WYNDHAM
-          </h1>
+          <AnimatedHeader />
           
           <p className="text-2xl sm:text-3xl lg:text-4xl text-muted-foreground font-light">
             The Property Ladder, Re-Engineered.
